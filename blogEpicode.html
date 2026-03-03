@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+  </head>
+  <body>
+    <header>
+      <!-- Inserimento logo Epicode -->
+      <img src="./img/logo.svg" />
+      <!-- Inserimento nome blog e link utili -->
+      <p>Epicode - Il blog dei developers</p>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Articoli</a>
+        </li>
+        <li>
+          <a href="#">Job</a>
+        </li>
+      </ul>
+      <hr />
+    </header>
+    <main>
+      <h1>Come creare un template per i post</h1>
+      <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+      <p>
+        La prima cosa da fare è suddividere in blocchi logici la pagina,
+        identificando le <strong>parti <br />comuni</strong> da applicare a
+        tutte le pagine
+      </p>
+      <p>Le varie aree saranno quindi suddivise in:</p>
+      <ul>
+        <li>Contenuti di instestazione del tag &lt;header&gt;</li>
+        <li>
+          Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)
+        </li>
+        <li>
+          Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;
+        </li>
+      </ul>
+      <h2>Formattazione del codice</h2>
+      <p>
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le
+        parti la <strong>selezionare <br />con i CSS.</strong> Perciò i passi
+        saranno:
+      </p>
+      <ol>
+        <li>
+          Progettare su carta il markup finale, assegnando ad ogni specifico
+          testo il tag <br />appropriato
+        </li>
+        <li>
+          Scrivere l'HTML dei tag esterni a quelli interni e dall'altro verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+        diffusione <br />pressochè totale.
+      </p>
+      <table>
+        <thead>
+          <caption>
+            Diffusione dei CSS
+          </caption>
+          <tr>
+            <th>Anno</th>
+            <th>Percentuale di utilizzo</th>
+            <th>Supporto browser</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Un test di validazione potrà essere fatto tramite il
+        <a href="#">tool online</a> dedicato allo scopo. Una <br />volta
+        ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere
+        stati dei veri <br />
+        developers come loro:
+      </p>
+      <iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed/Yzp_MPyoIqU"
+      >
+      </iframe>
+      <h2>Novità</h2>
+      <p>
+        Vuoi rimanre aggiornato su altre novità del blog? Iscriviti alla nostra
+        newsletter:
+      </p>
+      <form>
+        <input type="email" placeholder="inserisci l'email" />
+        <button>Iscriviti!</button>
+      </form>
+      <h2>Articoli correlati</h2>
+      <p><a href="#">Validare il codice HTML</a></p>
+      <p>Categoria: develop</p>
+      <p>Data: 18-09-2020</p>
+      <p><a href="#">Correggere la sintassi</a></p>
+      <p>Categoria: develop</p>
+      <p>Data: 16-09-2020</p>
+      <p><a href="#">Menu Kb nella pagina</a></p>
+      <p>Categoria: ottimizzazione</p>
+      <p>Data: 30-09-2020</p>
+      <hr />
+    </main>
+    <footer>
+      <p>Blog Epicode ©2023</p>
+      <address>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+        Luigi Einaudi 2 - <br />Milano. P.IVA 00112233.
+        <a href="#">info@epicode.school</a>
+      </address>
+    </footer>
+  </body>
+</html>
